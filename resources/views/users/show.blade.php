@@ -11,7 +11,7 @@
             <div class="panel-body">
                 <div class="media">
                     <div align="center">
-                        <img class="thumbnail img-responsive" src="{{ $user->avatar }}" width="300px" height="300px">
+                        @include('layouts._avatar')
                     </div>
                     <div class="media-body">
                         <hr>
